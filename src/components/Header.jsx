@@ -8,7 +8,7 @@ const Header = () => {
       </h1>
       <div>
         <a
-          class="hs-dark-mode-active:hidden block hs-dark-mode group flex items-center text-gray-600 font-medium dark:text-gray-400 dark:hover:text-gray-500"
+          class="hs-dark-mode-active:hidden block hs-dark-mode group flex items-center text-[#7ECA9C] font-medium dark:[#7ECA9C] dark:hover:text-[#7ECA9C]"
           href="#!"
           data-hs-theme-click-value="dark"
         >
@@ -24,7 +24,7 @@ const Header = () => {
           </svg>
         </a>
         <a
-          class="hs-dark-mode-active:block hidden hs-dark-mode group flex items-center text-gray-600 font-medium dark:text-gray-400 dark:hover:text-gray-500"
+          class="hs-dark-mode-active:block hidden hs-dark-mode group flex items-center text-[#7ECA9C] font-medium dark:[#7ECA9C] dark:hover:text-[#7ECA9C]"
           href="#!"
           data-hs-theme-click-value="light"
         >

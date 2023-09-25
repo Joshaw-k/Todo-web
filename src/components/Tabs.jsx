@@ -15,8 +15,8 @@ const Tabs = () => {
             key={index}
             type="button"
             class={`py-4 px-1 inline-flex items-center gap-2 border-b-[3px] ${
-              tabId === tab.id ? "border-blue-600" : "border-transparent"
-            } text-sm whitespace-nowrap text-gray-200 hover:text-blue-600 active`}
+              tabId === tab.id ? "border-[#7ECA9C]" : "border-transparent"
+            } text-sm whitespace-nowrap text-gray-200 hover:text-[#7ECA9C] dark:text-black`}
             onClick={() => {
               setTabId(tab.id);
               handleTab(tab.id);
